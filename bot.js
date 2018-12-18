@@ -85,5 +85,5 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 }
 
 });
-
+client.user.setGame(`1play | Legends music`,"http://twitch.tv/Legends Shop")
 client.login(token);
